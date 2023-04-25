@@ -1,4 +1,4 @@
-[22:32, 24/04/2023] Doverani2 🤪: pipeline 
+pipeline 
 {
     agent any
 
@@ -34,7 +34,7 @@
 
      always
     	{
-    		emailext body: 'Summary', subject: 'Pipeline Status', to: 'keerthigganiga@gmail.com'
+    		emailext body: 'Summary', subject: 'Pipeline Status', to: 'thrupthiachar77@gmail.com'
     	}
 
     }
